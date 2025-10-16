@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <?php 
-        $css_file = "style.css";
-        $js_file = "./js/myfunctions2.js";
-        include_once("../includes/head.php");
-    ?>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <script src="./js/myfunctions2.js" defer></script>
+    {% include head.html %}
 </head>
 <body>
-    <header><?php include_once("../includes/header.php");?></header>
+    <header>{% include header.html %}</header>
     <main>
         <section id ="main_sec_1">
             <h2>オンラインストア(工事中)</h2>
@@ -40,6 +38,6 @@
             花色が豊富）に大別することができます。<br>小輪品種はこぼれダネでも毎年よく咲きますが、大輪品種はタネが少量しかできず、耐寒性も弱いので、人工的にタネをまいて、防寒して冬越しさせる必要があります。</p>
         </div>            
     </main>
-    <footer><?php include_once("../includes/footer.php");?></footer>
+    <footer>{% include footer.html %}</footer>
 </body>
 </html>

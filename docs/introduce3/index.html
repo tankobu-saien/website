@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <?php 
-        $css_file = "style.css";
-        $js_file = "./js/myfunctions3.js";
-        include_once("../includes/head.php");
-    ?>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <script src="./js/myfunctions3.js" defer></script>
+    {% include head.html %}
 </head>
 <body>
-    <header><?php include_once("../includes/header.php");?></header>
+    <header>{% include header.html %}</header>
     <main>
         <section id ="main_sec_1">
             <h2>やさいの育て方</h2>
@@ -50,6 +48,6 @@
             </p>
         </section>
     </main>
-    <footer><?php include_once("../includes/footer.php");?></footer>
+    <footer>{% include footer.html %}</footer>
 </body>
 </html>
