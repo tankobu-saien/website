@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <?php 
+        $css_file = "style.css";
+        $js_file = "./js/myfunctions1.js";
+        include_once("../includes/head.php");
+    ?>
+</head>
+<body>
+    <header><?php include_once("../includes/header.php");?></header>
+    <main>
+        <section id ="main_sec_1">
+            <h2>たんこぶ菜園の紹介</h2>
+            <p><img src="images/icon_saien.png" alt="菜園" width="500"height="320"></p>
+            <p id = "desc">
+            たんこぶ菜園<br><br>野菜作りの経験は10年以上。<br>
+            楽しく育てることに幸せを感じ、多くの人と植物を育てる喜びを共有したいと、各種SNSを展開。<br>育て方に固執せず、自由でオリジナリティ溢れる菜園に魂を感じる。<br>IT×植物のように、新しい園芸界の流行を作り出すことを望む。<br><br>
+            #家庭菜園 #園芸 #園芸男子 #植物 #ガーデニング #プランター #畑 #野菜 #鉢花 #切花 #多肉植物 #観葉植物 #水耕栽培 #フラワーアレンジメント #ドライフラワー #IT #IoT #AI #スマート農業 #植物工場 #Python #chatGPT #生成AI #コミュニティ #メディア<br><br>
+            </p>
+        </section>    
+        <section id ="main_sec_2">
+            <h3>過去に出会った園芸家の方々</h3>
+            <p><img src="images/takako_fukamati.jpg" alt="深町貴子" width="500"height="320"></p>
+            <p class = "detail_desc">
+            深町貴子先生<br>園芸家 野菜、観葉植物
+            <br><br><br><br><br><br><br><br><br><br><br>
+            
+            <p><img src="images/akihito_kaneko.jpg" alt="金子明人" width="500"height="320"></p>
+            <p class = "detail_desc">金子明人先生<br>園芸家 鉢花
+            <br><br><br><br><br><br><br><br><br><br><br>
+            
+            <p><img src="images/hideaki_tsuruoka.jpg" alt="鶴岡秀明" width="500" height="320"></p>
+            <p class = "detail_desc">鶴岡秀明先生<br>園芸家 多肉植物
+            <br><br><br><br><br><br><br><br><br><br><br>
+            
+            <p><img src="images/eiko_hiraku.jpg" alt="平工詠子" width="500" height="320"></p>
+            <p class = "detail_desc">平工詠子先生<br>園芸家 多年草
+            <br><br><br><br><br><br><br><br><br><br><br>
+        </section>        
+    </main>    
+    <footer><?php include_once("../includes/footer.php");?></footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <?php 
+        $css_file = "style.css";
+        $js_file = "./js/myfunctions4.js";
+        include_once("../includes/head.php");
+    ?>
+</head>
+<body>
+    <header><?php include_once("../includes/header.php");?></header>
+    <main>
+        <section id ="main_sec_1">
+            <h2>リンク集🌸</h2>
+            <p id ="desc">たんこぶ菜園公式SNSのリンクを載せています。
+                <a href ="https://lit.link/tankobusaien">here</a>
+            </p>
+        </section>
+
+        <section id="main_sec_2">
+            <h3>【UGシリーズ】@たんこぶ菜園YouTube</h3>
+            <p>たんこぶ菜園YouTubeは<a href="https://www.youtube.com/@Tankobu_Saien">こちら</a></p> 
+
+            <div class="tile">
+                <a href="https://www.youtube.com/watch?v=NaNWuv_MZhc" target="_blank" rel="noopener">
+                    <p>【UG# 1】玉ねぎ🧅を大量収穫‼️with🥔✨</p>
+                    <img id="thumbnail" src="https://img.youtube.com/vi/NaNWuv_MZhc/mqdefault.jpg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=kIBlizA8yj4" target="_blank" rel="noopener">
+                    <p>【UG# 2】初心者でも🍓安く簡単にいちごを育てる！🌱</p>
+                    <img src="https://img.youtube.com/vi/kIBlizA8yj4/mqdefault.jpg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=O84aGz_CXVc" target="_blank" rel="noopener">
+                    <p>【UG# 3】自分で作ると本当に美味しい‼️さつまいも🍠🍠</p>
+                    <img src="https://img.youtube.com/vi/O84aGz_CXVc/mqdefault.jpg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=JpXnrg3sVBw" target="_blank" rel="noopener">
+                    <p>【UG# 7】 AIが育てる未来の野菜工場🥬🥬</p>
+                    <img src="https://img.youtube.com/vi/JpXnrg3sVBw/mqdefault.jpg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=f3vwizWpuOc" target="_blank" rel="noopener">
+                    <p>【UG# 8】植物は植物によって逞しく育つ🌱🌱</p>
+                    <img src="https://img.youtube.com/vi/f3vwizWpuOc/mqdefault.jpg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=hfgoIgohuzw" target="_blank" rel="noopener">
+                    <p>【UG# 9】初心者必見‼️プランター栽培での水やりの方法を徹底ガイド☺️植え付けから水やりの達人を目指そう✨✨</p>
+                    <img src="https://img.youtube.com/vi/hfgoIgohuzw/mqdefault.jpg">
+                </a>      
+            </div>      
+        </section>
+
+        <section id ="main_sec_3">
+            <h4 id="flower10">風景散策</h4>
+            <p>ケイトウ<p>
+            <p class = "detail_desc">ケイトウや観賞用のトウガラシの花が咲いていて豪華です。<br><br> 
+            一般的にケイトウと呼ばれるものは、炎のような鮮やかな花色で秋の花壇を彩り、古くから親しまれているなじみのある花です。ニワトリのトサカに似ていることから「鶏頭」と呼ばれ、花房の先端が平たく帯状や扇状に大きく広がり、これがよく目立つのが大きな特徴です。<br><br>　観賞用トウガラシは、緑や紫、クリーム色から赤や黄、オレンジ色に変化するカラフルな果実を主に観賞しますが、紫や斑入りの葉をもつ品種もあり、果実とあわせて、観賞期間がとても長い植物です。観賞用として流通しますが、やはりトウガラシ（野菜）ですので、非常に辛いものがあります。
+            トウガラシ属の植物は、南アメリカと北アメリカにかけての熱帯に、20種ほどが分布しています。日本ではトウガラシ属の植物は一年草として扱われますが、原産地では多年草になるものもあります。日本でも5℃程度を保てる温室や沖縄地方では多年草になります。
+            </p>
+        </section>
+    </main>
+    <footer><?php include_once("../includes/footer.php");?></footer>
+</body>
+</html>

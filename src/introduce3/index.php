@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <?php 
+        $css_file = "style.css";
+        $js_file = "./js/myfunctions3.js";
+        include_once("../includes/head.php");
+    ?>
+</head>
+<body>
+    <header><?php include_once("../includes/header.php");?></header>
+    <main>
+        <section id ="main_sec_1">
+            <h2>やさいの育て方</h2>
+            <p id ="desc">ここでは野菜の育て方や育ち方の一例をお伝えします。
+                <ul>
+                    <li><a href="#sub_eggplants">ナス科</a></li>
+                    <li><a href="#sub_melons">ウリ科</a></li>
+                    <li><a href="#sub_beans">マメ科</a></li>
+                    <li><a href="#sub_roses">バラ科</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section id ="main_sec_2">
+            <div id = "sub_eggplants">〇ミニトマト</div>
+            <p><img src ="images/image3 (1).jpeg" alt ="ミニトマト" width="500" height="320"></p>
+            <p class ="detail_desc">思っているよりたくさん収穫するのが難しい野菜です。<br><br><原産地>　南米アンデス山脈<br><発芽適温>15℃<br><栽培適温>15℃～27℃<br><br>苗は倒して植えます。根っこが増えるので生育初期は水やり控えめ。<br>奇数果房の花が実に代わり始めたら肥料を少し。配合肥料を与えてもよい。<br>収穫は朝。糖代謝が起こる前の収穫がおいしい。                
+            </p>           
+        </section>
+
+        <section id ="main_sec_2">
+            <div id = "eggplants">〇ナス</div>
+            <p><img src ="images/image1 (3).jpeg" alt ="ナス" width="500" height="320"></p>
+            <p class ="detail_desc">手をかけるほど答えてくれる野菜です<br><br><原産地>　インド<br><発芽適温>18℃<br><栽培適温>20℃～30℃<br><br>いかに根を広げられるか、生育初期から株の体力を温存しておくこと。肥料食いではあるが、配合肥料などを使いつつ、メリハリをつける。<br>剪定を行いましょう。焦げナス防止のためだけでなく、良質なものを収穫できます。<br>平行になっている枝、株の中心になっている枝を収穫後に空きます。
+            </p>
+        </section>
+
+        <section id ="main_sec_2">
+            <div id = greenpapper>〇ピーマン</div>
+            <p><img src ="images/image0 (3).jpeg" alt ="ピーマン" width="500" height="320"></p>
+            <p class ="detail_desc">苗選びが大事<br><br><原産地>　中南米<br><発芽適温>20℃<br><栽培適温>20℃～30℃<br><br>苗半作って聞いたことある？？<br>ホームセンターや園芸店で苗の成長点を見るとしわしわということがあります。<br>7月ぐらいで実が終了してしまいます。<br>株のしっかりした苗を選びましょう。育て方はナスと変わらないです。<br>万願寺トウガラシやししとうにも応用が効きます。
+            </p>
+        </section>
+
+        <section id ="main_sec_2">
+            <div id = "sub_roses">〇いちご</div>
+            <p><img src ="images/image2 (2).jpeg" alt ="いちご" width="500" height="320"></p>
+            <p class ="detail_desc">初心者でも育ててみよう<br><br><原産地>　北米東部、南米チリ<br><発芽適温>種からは向かない<br><栽培適温>15℃～25℃<br><br>家でできたらかわいいし嬉しいですよね。１０月ごろに苗が出回る一季なりイチゴがおすすめです。品種は自分が食べたい品種を選びましょう。<br>（とちおとめがおすすめ（笑））植えたら過乾燥に注意しながら冬越しし梅の花と同時に花を咲かせます。追肥は化成肥料少々と、バットグアノがおすすめ！
+            </p>
+        </section>
+    </main>
+    <footer><?php include_once("../includes/footer.php");?></footer>
+</body>
+</html>

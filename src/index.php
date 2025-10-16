@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <?php 
+        $css_file = "./top_page/style.css";
+        $js_file = "./top_page/js/myfunctions_index.js";
+        include_once("./includes/head.php");
+    ?>
+</head>
+<body>
+    <!-- ローディング画面 -->
+    <div id ="loading">
+        <img class ="spinner" src="images/18NJgObmgEVhNWVt3poeTaA.gif" alt="">
+    </div>
+    <header><?php include_once("./includes/header.php");?></header>
+    <main>
+        <section id ="main_sec_1">
+          <h2>たんこぶ菜園</h2>
+          <div>
+            <a href="https://lit.link/tankobusaien"target="_blank">
+                <img src="./top_page/images/IMG_5638.jpg" alt="畑の写真" width="750" height="480">
+            </a>
+          </div>
+          <p class ="desc">~【🧑‍🌾 20代前半 園芸男子🧑‍🌾】｢植物を育てるってたのしい🌱🍓｣ を原点に、''菜園なう情報''をシェアしています(ง •̀_•́)ง<br>「皆の好きを形に☺️」 #家庭菜園 #植物 #園芸 #IoT #IT #AI #YouTube #Instagram 
+          </p>
+        </section>
+
+        <section id ="main_sec_2">
+        <h3 id = gallery>ギャラリー</h3>
+        <p class ="desc">たんこぶ菜園の写真ギャラリーは
+          <a href ="./top_page/gallery.php">こちら</a>から
+        </p>
+        </section>
+
+        <section id ="main_sec_3">
+        <h3 id = place>菜園とわたし</h3>
+        <dl>
+            <dt>
+              <a href="./introduce1/index.php"width="50px"height="25px">たんこぶ菜園のコンセプト</a>
+            </dt>
+            <dd>たんこぶ菜園の生誕を語る</dd>
+            <dt>
+              <a href="./introduce2/index.php"width="50px"height="25px">公式オンラインストア</a>
+            </dt>
+            <dd>希少性のある面白い植物を取り揃えています！(工事中)</dd>
+            <dt><a href="./introduce3/index.php"width="50px"height="25px">植物図鑑&やさいの育て方</a>
+            </dt>
+            <dd>インターネットにはない情報もあるかも?</dd>
+            <dt><a href="./introduce4/index.php"width="50px"height="25px">たんこぶ菜園リンク集</a>
+            </dt>
+            <dd>SNSの紹介をいたします。</dd>
+        </dl>
+        <p class ="desc">私宛てのご意見、ご感想はこちらの応募フォーム(工事中)から
+          <!-- <a href ="../contact/send.php">応募フォーム(工事中)</a>から -->
+        </p>
+        </section>
+    </main>
+    <aside>
+        <h4>【自然特集】</h4>
+        <dl>
+            <dt>(工事中)</dt>
+            <dd>
+              <p class ="desc">自然があれば生物がやってきます。どんな生態系でしょうか？</p>
+            </dd>
+            <dt>
+              <a href="https://www.nna.jp/news/2633999"target="_blank">話題の植物工場</a>
+            </dt>
+            <dd>
+                <p class ="desc">スーパーなど私たちにとって身近な存在になりそう。</p>
+            </dd>
+        </dl>
+    </aside>
+    <footer><?php include_once("./includes/footer.php");?></footer>
+</body>
+</html>

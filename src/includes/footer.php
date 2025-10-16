@@ -1,0 +1,2 @@
+<a href="../index.php">ホーム画面に戻る</a>
+<p>Copyright &copy;2024-2026 Tankobu_Saien All Rights Reserved.</p>

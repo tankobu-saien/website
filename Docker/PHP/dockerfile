@@ -1,0 +1,10 @@
+FROM php:8.2-apache
+
+# 必要に応じて拡張を追加
+RUN docker-php-ext-install pdo pdo_mysql
+
+# mod_rewrite を有効化
+RUN a2enmod rewrite
+
+# ドキュメントルートはデフォルトの /var/www/html のままでOK
+# これが Apache の DocumentRoot と一致している

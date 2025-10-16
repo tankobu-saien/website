@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <?php 
+        $css_file = "style.css";
+        $js_file = "./js/myfunctions2.js";
+        include_once("../includes/head.php");
+    ?>
+</head>
+<body>
+    <header><?php include_once("../includes/header.php");?></header>
+    <main>
+        <section id ="main_sec_1">
+            <h2>オンラインストア(工事中)</h2>
+            <!-- <a href="../../tankobu_onlineStore_newest/certification/Controllers/login.php"> -->
+            <p id ="desc">ログイン/会員登録ページ(工事中)</a>です。カートに入れてお楽しみください。</p>
+        </section>
+        <div id="menu"> 
+            <h3>おすすめ商品</h3>
+            <p>リーズナブルで、ロングテールの商品を販売</p>
+
+            <h4>野菜苗</h4>
+            <p><img src="images/IMG_5636.JPG" alt="キャロル" width="350" height="350"></p>
+            <p>ミニトマトキャロル：多収で甘くて濃い味が特徴。<br>
+            つくりやすく、たくさんとれる人気のミニトマトです。
+            果実は1花房当り30～50果ほどつき、<br>
+            粒の大きさや甘さがしっかりとそろいます。
+            ToMV（Tm-2ヘテロ）、萎凋病、斑点病に対して抵抗性があり、<br>
+            サツマイモネコブセンチュウにも強いです。
+            病気に強いので低農薬栽培ができます。<br><br><br><br><br><br><br><br><br><br><br></p>
+            
+            <h4>鉢花苗</h4>
+            <p><img src="images/IMG_5637.JPG" alt="プリムラ" width="350" height="350"></p>
+            <p>プリムラ：桜のようにメルヘンな花<br>
+            サクラソウ属の植物は500～600種があるとされており、観賞価値の高いものが多いグループです。<br>
+            プリムラ・マラコイデスは中国の雲南省原産の一年草です。
+            株全体に白い粉がつくことから、ケショウザクラ（化粧桜）という和名がつけられています。
+            <br>暑さに弱いので、6月から7月もしくは9月にタネをまいて、翌年の早春からの花を楽しみます。<br>
+            小輪品種（花の小さい系統）と、大輪品種（花が大きく葉がごわごわした系統。
+            花色が豊富）に大別することができます。<br>小輪品種はこぼれダネでも毎年よく咲きますが、大輪品種はタネが少量しかできず、耐寒性も弱いので、人工的にタネをまいて、防寒して冬越しさせる必要があります。</p>
+        </div>            
+    </main>
+    <footer><?php include_once("../includes/footer.php");?></footer>
+</body>
+</html>
